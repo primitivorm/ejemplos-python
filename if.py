@@ -1,5 +1,5 @@
-i=5
-if i<10:
-    print "es verdadero"
+i=10
+if i<0:
+    print "es positivo"
 else:
-    print "es falso"
+    print "es negativo"
