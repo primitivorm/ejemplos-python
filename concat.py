@@ -1,3 +1,6 @@
-s1 = "hola"
-s2 = " mundo"
-print s1 + s2
+hello = "hello"
+world = "world"
+print hello + " " + world
+print "%s %s" % (hello, world)
+print "{} {}".format(hello, world)
+print ' '.join([hello, world])
